@@ -1,0 +1,51 @@
+/* Reset default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* By default links are underlined, this removes the underline */
+a {
+    text-decoration: none;
+}
+
+
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+/* Link Styles */
+a {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    border-bottom: 3px solid transparent;
+    padding: 10px;
+}
+
+/* Visited Link Style */
+a:visited {
+    color: #e0e0e0;
+}
+
+/* Hover Link Style */
+a:hover {
+    color: #f5f5f5;
+    border-bottom: 3px solid #f5f5f5;
+}
+
+a.active {
+    color: #f5f5f5;
+    border-bottom: 3px solid #f5f5f5;
+}

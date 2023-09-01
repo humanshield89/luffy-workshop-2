@@ -1,0 +1,52 @@
+/* Reset default styles */
+body, h1, p, img {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Profile Card Styles */
+.profile-card {
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    margin: 100px auto;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.bio {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Vibrant Color Scheme */
+.profile-card {
+    background: linear-gradient(45deg, #FF6B6B, #FF8E53);
+    color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    color: #fff;
+}
+
+.bio {
+    color: #f0f0f0;
+}
