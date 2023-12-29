@@ -229,6 +229,9 @@ Select all headers (`<h1>`, `<h2>`, `<h3>`, etc.) and give them a consistent fon
 <div>
     <p>Should not be selected.</p>
 </div>
+<main class="content">
+    <p>Should not be selected.</p>
+</main>
 </body>
 </html>
 
