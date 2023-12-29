@@ -226,7 +226,9 @@ Select all headers (`<h1>`, `<h2>`, `<h3>`, etc.) and give them a consistent fon
     <p>This is a paragraph inside a content section.</p>
     <p>Another paragraph here.</p>
 </div>
-
+<div>
+    <p>Should not be selected.</p>
+</div>
 </body>
 </html>
 
