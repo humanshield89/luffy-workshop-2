@@ -60,7 +60,10 @@ those list items a bold font weight.
         <li>Item 2</li>
     </ul>
 </nav>
-
+    <ul>
+        <li>Item outside nav</li>
+        <li>Ithem outside nav</li>
+    </ul>
 </body>
 </html>
 ```
@@ -81,7 +84,10 @@ Select all immediate `<span>` children of `<div>` elements and give them a borde
 
 <div>
     <span>This is a direct child span.</span>
-    <p>This is a paragraph.</p>
+    <p>
+    This is a paragraph.
+    <span>This is not a direct child span.</span>
+</p>
 </div>
 
 </body>
@@ -91,8 +97,8 @@ Select all immediate `<span>` children of `<div>` elements and give them a borde
 
 ### Exercise 5: Adjacent Sibling Selector
 
-Select all elements with the class `info` that are immediately followed by an element with the class `note`. Change the
-font style of the `info` element to italic.
+Select all elements with the class `note` that are immediately followed by an element with the class `info`. Change the
+font style of the `note` element to italic.
 
 ```html
 <!DOCTYPE html>
